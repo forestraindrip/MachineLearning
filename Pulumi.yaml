@@ -1,0 +1,11 @@
+name: my-machine-learning-project
+description: My machine learning project with AWS resources
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
